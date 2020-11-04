@@ -1,0 +1,24 @@
+.container{
+    margin:100px 0;
+    width:100%;
+}
+.card{
+    margin:0 2% !important;
+    padding:20px !important
+}
+.confirmed{
+    border-bottom: 10px solid orange;
+}
+.recovered{
+    border-bottom: 10px solid green;
+}
+.deaths{
+    border-bottom: 10px solid red;
+}
+
+
+@media(max-width: 770px){
+    .card{
+      margin:2% 0 !important;
+    }
+  }
